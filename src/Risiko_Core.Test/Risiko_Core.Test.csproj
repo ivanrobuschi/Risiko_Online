@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="ColorListTest.cs" />
     <Compile Include="PlayerTest.cs" />
+    <Compile Include="ContinentListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

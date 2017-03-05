@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Classes\ColorList.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="Classes\ContinentList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
