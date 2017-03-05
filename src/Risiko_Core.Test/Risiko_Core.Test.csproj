@@ -52,9 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorListTest.cs" />
-    <Compile Include="PlayerTest.cs" />
-    <Compile Include="ContinentListTest.cs" />
+    <Compile Include="TestClasses\ColorListTest.cs" />
+    <Compile Include="TestClasses\PlayerTest.cs" />
+    <Compile Include="TestClasses\ContinentListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
