@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using FluentAssertions;
+using Risiko_Core.Classes;
 
 namespace Risiko_Core.Test
 {
@@ -21,7 +17,7 @@ namespace Risiko_Core.Test
         public void ColorListShouldContainAllColors()
         {
             var sut = new ColorList();
-            sut.colorList.Count.Should().Be(6);
+            sut.Count.Should().Be(6);
         }
 
         [TestCase(0, "black")]
@@ -30,10 +26,10 @@ namespace Risiko_Core.Test
         [TestCase(3, "cyan")]
         [TestCase(4, "yellow")]
         [TestCase(5, "red")]
-        public void IDsShouldMatchColors(int id, string color)
+        public void IdsShouldMatchColors(int id, string color)
         {
             var sut = new ColorList();
-            sut.colorList[id].Should().Be(color);
+            sut.GetColor(id).Should().Be(color);
         }
     }
 }
